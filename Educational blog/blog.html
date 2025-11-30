@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Insights – Educational Blog about Artificial Intelligence</title>
+  <meta name="description" content="Learn everything about Artificial Intelligence, Machine Learning, Ethics, and the future of AI."/>
+
+  <style>
+    :root {
+      --primary: #2563eb;
+      --dark: #1e293b;
+      --light: #f8fafc;
+      --gray: #64748b;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: var(--light);
+    }
+    header {
+      background: linear-gradient(135deg, #1e40af, #3b82f6);
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+    header h1 { font-size: 3rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.2rem; opacity: 0.9; }
+
+    nav {
+      background: var(--dark);
+      padding: 1rem;
+      position: sticky; top:0; z-index:100;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover { color: #93c5fd; }
+
+    main { max-width: 1100px; margin: 2rem auto; padding: 0 1rem; }
+    .post {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      margin-bottom: 3rem;
+    }
+    .post img.hero {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .post-content {
+      padding: 2.5rem;
+    }
+    .post h1 { font-size: 2.5rem; margin-bottom: 1rem; color: var(--primary); }
+    .meta {
+      color: var(--gray);
+      margin-bottom: 1.5rem;
+      font-size: 0.95rem;
+    }
+    .tags {
+      margin: 1.5rem 0;
+    }
+    .tag {
+      display: inline-block;
+      background: #dbeafe;
+      color: var(--primary);
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      margin-right: 0.5rem;
+    }
+
+    .comments-section {
+      margin-top: 3rem;
+      border-top: 2px solid #e2e8f0;
+      padding-top: 2rem;
+    }
+    #comment-form { margin-bottom: 2rem; }
+    #comment-form input, #comment-form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+    }
+    #comment-form button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    #comment-form button:hover { background: #1d4ed8; }
+
+    .comment {
+      background: #f1f5f9;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .comment small { color: var(--gray); }
+
+    footer {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+      margin-top: 4rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.2rem; }
+      .post h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AI Insights</h1>
+    <p>Your go-to educational blog for Artificial Intelligence, Machine Learning, and Ethics</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Machine Learning</a></li>
+      <li><a href="#">Ethics & Society</a></li>
+      <li><a href="#">History of AI</a></li>
+      <li><a href="#">Future Trends</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <article class="post">
+    
+      <img src="pexels-agk42-2599244.jpg" 
+           alt="Artificial Intelligence illustration" class="hero">
+
+      <div class="post-content">
+        <h1>What is Artificial Intelligence?</h1>
+        <div class="meta">
+          Published on November 30, 2025 | Category: <strong>Fundamentals</strong> | Reading time: ~8 min
+        </div>
+
+        <p><strong>Artificial intelligence (AI)</strong> is the intelligence of machines or software, as opposed to the intelligence of humans or animals. It is a field of study in computer science that develops and studies intelligent machines.</p>
+
+        <h2>Definition</h2>
+        <p>The term "artificial intelligence" was coined in 1956 by John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon at the Dartmouth Conference. AI research deals with the question of how to create computers that are capable of intelligent behaviour.</p>
+
+        <p>In practical terms, AI applications can be divided into:</p>
+        <ul>
+          <li><strong>Narrow AI</strong> (or weak AI): Systems that are capable of performing specific tasks (e.g., facial recognition, internet search, self-driving cars).</li>
+          <li><strong>General AI</strong> (or strong AI): Hypothetical systems that possess the ability to understand, learn, and apply intelligence across a wide variety of tasks at a level equal to or beyond a human being.</li>
+          <li><strong>Artificial Superintelligence</strong> (ASI): Hypothetical AI that surpasses human intelligence in virtually every field.</li>
+        </ul>
+
+        <h2>Key Subfields</h2>
+        <ul>
+          <li>Machine Learning (ML)</li>
+          <li>Deep Learning</li>
+          <li>Natural Language Processing (NLP)</li>
+          <li>Computer Vision</li>
+          <li>Robotics</li>
+          <li>Expert Systems</li>
+        </ul>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/AI_hierarchy.svg/800px-AI_hierarchy.svg.png" 
+             alt="AI field hierarchy" style="max-width:100%; border-radius:8px; margin:2rem 0;">
+
+        <h2>Goals of AI Research</h2>
+        <p>Researchers aim to develop systems that can:</p>
+        <ol>
+          <li>Reason, use strategy, solve puzzles, and make judgments under uncertainty</li>
+          <li>Represent knowledge and make deductions</li>
+          <li>Plan and learn from experience</li>
+          <li>Understand and generate natural language</li>
+          <li>Perceive and interact with the physical world</li>
+        </ol>
+
+        <h2>Ethical Considerations</h2>
+        <p>Modern AI development raises important ethical questions such as bias in algorithms, job displacement, privacy, autonomous weapons, and the long-term risk of superintelligent AI.</p>
+
+        <div class="tags">
+          <span class="tag">Artificial Intelligence</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Ethics</span>
+          <span class="tag">History</span>
+          <span class="tag">AGI</span>
+        </div>
+
+        <div class="comments-section">
+          <h3>Leave a Comment</h3>
+          <form id="comment-form">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <textarea id="comment" rows="4" placeholder="Your comment..." required></textarea>
+            <button type="submit">Post Comment</button>
+          </form>
+
+          <div id="comments-list"></div>
+        </div>
+
+        <hr style="margin:3rem 0;">
+        <p><small>Article content adapted from <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">Wikipedia – Artificial Intelligence</a> (CC BY-SA 3.0).</small></p>
+      </div>
+    </article>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AI Insights – Educational Blog. Made for learning purposes.</p>
+  </footer>
+
+  <script>
+    // Simple commenting system using localStorage
+    const form = document.getElementById('comment-form');
+    const commentsContainer = document.getElementById('comments-list');
+
+    function loadComments() {
+      const comments = JSON.parse(localStorage.getItem('ai-blog-comments') || '[]');
+      commentsContainer.innerHTML = '';
+      comments.forEach(c => {
+        const div = document.createElement('div');
+        div.className = 'comment';
+        div.innerHTML = `<strong>${c.name}</strong><p>${c.text}</p><small>${new Date(c.date).toLocaleString()}</small>`;
+        commentsContainer.appendChild(div);
+      });
+    }
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const text = document.getElementById('comment').value.trim();
+
+      if (name && text) {
+        const comments = JSON.parse(localStorage.getItem('ai-blog-comments') || '[]');
+        comments.push({ name, text, date: new Date().toISOString() });
+        localStorage.setItem('ai-blog-comments', JSON.stringify(comments));
+
+        document.getElementById('name').value = '';
+        document.getElementById('comment').value = '';
+        loadComments();
+      }
+    });
+
+    // Load comments on page load
+    loadComments();
+  </script>
+</body>
+</html>
